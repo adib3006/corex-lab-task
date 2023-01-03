@@ -8,20 +8,20 @@ import {FaSearch} from 'react-icons/fa';
 
 const Navbar = () => {
     return (
-        <div className='pl-10 flex w-full items-center border-b'>
-            <div className='border-r py-4 w-1/6'>
+        <div className='flex w-full items-center border-b'>
+            <div className='pl-[24px] border-r py-4 w-1/6'>
                 <img src={logo} alt=""/>
             </div>
-            <div className='flex justify-between w-5/6 pl-10 py-2'>
-                <div className='border rounded flex items-center p-2'>
-                    <FaSearch className='text-gray-500 mr-2'/>
+            <div className='flex justify-between w-5/6 pl-[46px] py-2'>
+                <div className='border rounded flex items-center p-2 text-[15px]'>
+                    <FaSearch className='text-[#9D9D9D] mr-2'/>
                     <input type="search" name="" id="" placeholder='Search' />
                 </div>
                 <div className='flex items-center'>
-                    <img src={comment} className='pr-5' alt="" />
-                    <img src={bell} className='pr-5' alt="" />
-                    <img src={person} className='pr-5' alt="" />
-                    <p className='pr-5'>Will Smith</p>
+                    <img src={comment} className='pr-[35px]' alt="" />
+                    <img src={bell} className='pr-[35px]' alt="" />
+                    <img src={person} className='pr-[14px]' alt="" />
+                    <p className='pr-5 text-[13px] font-[500]'>Will Smith</p>
                     <img src={down} className='pr-5' alt="" />
                 </div>
             </div>

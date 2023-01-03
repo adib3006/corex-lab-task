@@ -11,23 +11,23 @@ const Dashboard = () => {
     return (
         <div>
             <Navbar />
-            <div className='flex w-full pl-10'>
+            <div className='flex w-full'>
                 <div className='w-1/6'>
                     <SideBar />
                 </div>
-                <div className='w-5/6 bg-[#F2F7FA] p-5 flex gap-5'>
-                    <div className='w-1/4 bg-white rounded-[5px] p-3'>
+                <div className='w-5/6 bg-[#F2F7FA] p-5 flex gap-4'>
+                    <div className='w-[283px] bg-white rounded-[5px] px-[23px]'>
                         <ContactInfo />
                     </div>
-                    <div className='w-1/2'>
+                    <div className='w-[537px]'>
                         <Menu />
                         <Filters />
-                        <p className='mt-6'>Upcoming Campaigns</p>
+                        <p className='mt-[23px] mb-[14px] text-[#2B2B2B] font-[500] text-[12px]'>Upcoming Campaigns</p>
                         <Campaign info={'High'} />
                         <Campaign info={'Moderate'} />
                         <Campaign info={'High'} />
                     </div>
-                    <div className='w-1/4 bg-white px-6 py-7 rounded'>
+                    <div className='w-[281px] bg-white px-[24px] py-[29px] rounded'>
                         <Company />
                     </div>
                 </div>
